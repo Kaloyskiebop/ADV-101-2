@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div id="navigation">
+      <header>
+        <h1>Kaloyskie</h1>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="">Skills</a></li>
+          </ul>
+        </nav>
+        <div id="contactButton">
+          <a class="cta" href="#contact"><button>Contact</button></a>
+          <button id="icon"><i class="uil uil-moon"></i></button>
+        </div>
+      </header>
+    </div>
+
+    <section id="home">
+      <div>
+        <img class="responsive-img" src="Kaloy.png">
+      </div>
+      <div>
+        <h2>Hi, I'm <span>Carl</span></h2><br>
+        <div>
+          <p class="responsive-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta, dolorum asperiores vero optio vitae iste? Aliquid possimus quisquam, tempore praesentium, magnam maiores ex pariatur voluptatum earum nisi voluptatem ut?</p>
+        </div>
+        <a class="btn" href=""><button>Hire me</button></a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div>
+        <h2><span>About</span> Me</h2>
+        <div id="box-container">
+          <div class="box">
+            <img class="responsive-img" src="coal.jpg"> 
+            <h1>Gaming</h1>
+            <p class="responsive-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ipsa facilis maiores omnis, animi quis voluptas commodi quas et nulla. Magnam, voluptatum alias ullam vero accusamus ut officia natus recusandae.</p>        
+          </div>
+          <div class="box">
+            <img class="responsive-img" src="Guitar.jpg">
+            <h1>Playing Guitar</h1>
+            <p class="responsive-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam dicta sapiente accusamus corrupti odio, optio quos pariatur facere molestiae repellendus quis ipsum hic culpa laudantium, veniam quae vero quod.</p>          
+          </div>
+          <div class="box">
+            <img class="responsive-img" src="cycling.jpg">
+            <h1>Cycling</h1>
+            <p class="responsive-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic beatae, exercitationem fugit architecto sequi officia quod dicta doloremque quam, molestiae modi natus ex provident perferendis debitis adipisci aliquid facere ab!</p> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="heading">Contact Us</div>
+        <form action="">
+          <div class="entry">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <i class="uil uil-user-circle"></i>
+          </div>
+          <div class="entry">
+            <input type="email" email="email" placeholder="Enter Email"required>
+            <i class="uil uil-envelope"></i>
+          </div>
+          <div class="entry">
+            <textarea name="message" placeholder="Enter Message" required></textarea>
+          </div>
+          <button class="btn">Submit</button>
+        </form>
+       </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
